@@ -1,0 +1,39 @@
+﻿  peinfect.cpp
+C:\Users\dadad\Downloads\peinfect\peinfect\peinfect.cpp(88,30): warning C4244: 'initializing': conversion from 'LONGLONG' to 'unsigned int', possible loss of data
+C:\Users\dadad\Downloads\peinfect\peinfect\peinfect.cpp(91,38): warning C4244: 'argument': conversion from 'LONGLONG' to 'DWORD', possible loss of data
+C:\Users\dadad\Downloads\peinfect\peinfect\peinfect.cpp(133,39): warning C4244: 'argument': conversion from 'LONGLONG' to 'DWORD', possible loss of data
+C:\Users\dadad\Downloads\peinfect\peinfect\peinfect.cpp(144,39): warning C4244: 'argument': conversion from 'LONGLONG' to 'DWORD', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(4829,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file 'peinfect.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(4829,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\dadad\Downloads\peinfect\peinfect\peinfect.cpp(24,33):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\dadad\Downloads\peinfect\peinfect\peinfect.cpp(24,33):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'run'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(788,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned int,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned int
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(944,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned int,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned int
+          ]
+  
+  peinfect.vcxproj -> C:\Users\dadad\Downloads\peinfect\Debug\peinfect.exe
